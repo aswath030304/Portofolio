@@ -212,7 +212,7 @@ body {
 #resume {
     display: flex;
     min-height: 100vh;
-    padding: 50px 20px;
+    padding: 30px 20px;
     gap: 20px;
     box-sizing: border-box;
     opacity: 0;
@@ -262,7 +262,8 @@ body {
 
 #education {
     width: 90%;
-    padding-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 #education h1 {
@@ -281,7 +282,12 @@ body {
     color: gray;
     font-size: 1.3rem;
 }
-
+#education h3 {
+    font-family: var(--title);
+    color: var(--blue);
+    font-size: 2rem;
+    padding: 0%;
+}
 #skills h1 {
     font-family: var(--title);
     color: var(--blue);
@@ -299,6 +305,7 @@ body {
     min-width: 250px;
     box-sizing: border-box;
     margin-bottom: 20px;
+     padding-bottom: 5px;
 }
 
 .skill-name {
@@ -323,7 +330,9 @@ body {
     border-radius: 8px;
     animation: fillBar 3s forwards;
 }
-
+#certification{
+     padding-bottom: 5px;
+}
 #certification h1 {
     font-family: var(--title);
     color: var(--blue);
@@ -343,7 +352,6 @@ body {
     font-size: 1.3rem;
     color: gray
 }
-
 #awards h1 {
     font-family: var(--title);
     color: var(--blue);
@@ -566,7 +574,8 @@ transition: color 0.3s ease;
 
     #resume {
         flex-direction: column;
-        
+        padding: 0%;
+        margin-top: 0;
     }
 
     .sidebar {
