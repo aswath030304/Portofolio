@@ -574,9 +574,11 @@ transition: color 0.3s ease;
     }
 
     .content {
-        padding: 10px 20px;
+        padding: 5px 20px;
 
     }
+    .contact-photo{
+        display:none;}
 
     #education h1 {
 
