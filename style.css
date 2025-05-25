@@ -574,12 +574,17 @@ transition: color 0.3s ease;
     }
 
     .content {
-        padding: 5px 20px;
+        padding: 0px 20px;
 
     }
     .contact-photo{
         display:none;}
-
+#education{
+    padding-bottom:5px;}
+    #certification{
+    padding-bottom:5px;}
+    #skills{
+    padding-bottom:5px;}
     #education h1 {
 
         font-size: 1.5rem;
