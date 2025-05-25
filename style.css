@@ -566,7 +566,7 @@ transition: color 0.3s ease;
 
     #resume {
         flex-direction: column;
-        height:10vh;
+        
     }
 
     .sidebar {
@@ -575,7 +575,7 @@ transition: color 0.3s ease;
 
     .content {
         padding: 20px;
-        padding-top: 90vh;
+        padding-top: 2px;
     }
 
     #education h1 {
