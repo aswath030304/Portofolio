@@ -566,7 +566,7 @@ transition: color 0.3s ease;
 
     #resume {
         flex-direction: column;
-        min-height:10vh;
+        height:10vh;
     }
 
     .sidebar {
