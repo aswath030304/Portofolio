@@ -620,8 +620,7 @@ transition: color 0.3s ease;
     }
 
     .form {
-        
-        margin-bottom: 5vh;
+        padding:20px;
     }
 
 }
